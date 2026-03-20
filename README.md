@@ -1,9 +1,11 @@
-# Gender Data Resource Hub (GDRH) 2026
+# Data Discovery Rwanda(DD Rw) Portal 2026
 
-## Team Izere-Fabrice Gender Data Resource Hub (GDRH) 2026
+## Team Izere-Fabrice Data Discovery Rwanda(DD Rw) Portal 2026
 
 **Built by:** Izere Marie Vincent Patience & Fabrice Hakuzimana
+
 **Event:** Gender Data Hackathon 2026
+
 **Data Sources:** NISR (National Institute of Statistics of Rwanda), MIGEPROF (Ministry of Gender and Family Promotion)
 
 ---
@@ -27,13 +29,13 @@
 
 ### What Is the GDRH?
 
-The **Gender Data Resource Hub (GDRH)** is an open-access web platform that centralises, validates, and surfaces Rwanda's gender-disaggregated statistical resources for Civil Society Organisations (CSOs), policy analysts, researchers, and government planners.
+The **Data Discovery Rwanda(DD Rw) Portal** is an open-access web platform that centralises, validates, and surfaces Rwanda's gender-disaggregated statistical resources for Civil Society Organisations (CSOs), policy analysts, researchers, and government planners.
 
-Rwanda produces a rich body of gender-relevant data — Demographic Health Surveys, Labour Force Surveys, EICV household surveys, Agricultural Household Surveys, and Population Censuses — yet this data remains scattered across institutional portals, locked in PDF downloads, and difficult to cross-reference. **The GDRH solves this by creating a single, searchable, quality-scored interface over the NISR microdata catalog and MIGEPROF policy data.**
+Rwanda produces a rich body of gender-relevant data — Demographic Health Surveys, Labour Force Surveys, EICV household surveys, Agricultural Household Surveys, and Population Censuses — yet this data remains scattered across institutional portals, locked in PDF downloads, and difficult to cross-reference. **The DD Rw Portal solves this by creating a single, searchable, quality-scored interface over the NISR microdata catalog and MIGEPROF policy data.**
 
 ### How It Improves Visibility and Usability for CSOs
 
-| Before GDRH | After GDRH |
+| Before The DD Rw Portal | After The DD Rw Portal |
 |---|---|
 | Analysts manually browse NISR's catalog page-by-page | Full-text + semantic search across 70+ validated studies |
 | Quality of metadata is unknown | Each study carries an automated quality score (0-100) with named flags |
@@ -79,7 +81,7 @@ Rwanda produces a rich body of gender-relevant data — Demographic Health Surve
 - **No cross-study comparison:** She cannot easily compare the 2014 DHS to the 2019 DHS without opening both PDFs side by side.
 - **No advocacy bridge:** Even when she identifies a data gap, there is no institutional pathway to formally flag it to NISR for resolution.
 
-**How GDRH addresses Claudine directly:**
+**How The DD Rw Portal addresses Claudine directly:**
 
 - Full-text search returns relevant studies in under 2 seconds.
 - Each study card displays quality score, resource count, and disaggregation flags upfront — no PDF download required.
@@ -387,7 +389,7 @@ The platform is designed around three sequential phases that mirror a CSO analys
 
 **Step 1 — Discovery**
 
-Claudine opens the GDRH and searches: `labour force northern province`.
+Claudine opens the The DD Rw Portal and searches: `labour force northern province`.
 
 The platform returns six studies in under 2 seconds:
 - Rwanda Labour Force Survey (2019) — Quality: 90 (Excellent), 4 resources
@@ -447,7 +449,7 @@ Claudine exports the two affected study records to CSV and attaches them as evid
 
 **Outcome:** Within the same 30-minute session, Claudine has: (1) identified six relevant studies, (2) assessed their quality without opening a single PDF, (3) surfaced a critical microdata access gap, (4) generated a draft advocacy brief with proper citations, and (5) submitted a formal institutional data request — all from a single interface.
 
-**This is the core value proposition of the GDRH**: compressing a 4-hour manual research-and-advocacy cycle into under an hour, with full citation trails and institutional accountability pathways built in.
+**This is the core value proposition of the DD Rw Portal**: compressing a 4-hour manual research-and-advocacy cycle into under an hour, with full citation trails and institutional accountability pathways built in.
 
 ---
 
@@ -605,7 +607,8 @@ This demonstrates that the GDRH is not a data visualisation exercise — it is a
 
 This project was built during the **Gender Data Hackathon 2026**. For contributions, corrections, or institutional partnerships, please open an issue or contact the team.
 
-**Izere Marie Vincent Patience** — Data Architecture & Backend API
+**Izere Marie Vincent Patience** — Data Architecture & Full Stack Engineer
+
 **Fabrice Hakuzimana** — Frontend Development & Policy Analysis
 
 ---
