@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-rwanda-blue: #00A1DE;
+  --color-rwanda-green: #20603D;
+  --color-rwanda-yellow: #FAD201;
+  --color-rwanda-gold: #E5BE01;
+  --color-pure-black: #000000;
+  --color-rich-black: #1A1A1A;
+  --color-soft-black: #2D3748;
+  --color-pure-white: #FFFFFF;
+  --color-off-white: #F7FAFC;
+  --color-light-gray: #E2E8F0;
+  --color-medium-gray: #A0AEC0;
+  --color-dark-gray: #4A5568;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-off-white text-soft-black font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-rich-black;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-rwanda-blue text-white border-2 border-rwanda-blue rounded-lg px-6 py-3 font-semibold transition-all duration-200 hover:bg-[#0088C2] hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,161,222,0.3)];
+  }
+
+  .btn-secondary {
+    @apply bg-rwanda-green text-white border-2 border-rwanda-green rounded-lg px-6 py-3 font-semibold transition-all duration-200 hover:bg-[#1A4D31] hover:shadow-[0_4px_12px_rgba(32,96,61,0.3)];
+  }
+
+  .btn-accent {
+    @apply bg-rwanda-yellow text-rich-black border-2 border-rwanda-yellow rounded-lg px-6 py-3 font-semibold transition-all duration-200 hover:bg-rwanda-gold hover:shadow-[0_4px_12px_rgba(250,210,1,0.4)];
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-rwanda-blue border-2 border-rwanda-blue rounded-lg px-6 py-3 font-semibold transition-all duration-200 hover:bg-[rgba(0,161,222,0.1)];
+  }
+
+  .metric-card {
+    @apply bg-white rounded-xl shadow-sm border border-light-gray p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,161,222,0.15)] hover:border-rwanda-blue;
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, #E2E8F0 25%, #F7FAFC 50%, #E2E8F0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
